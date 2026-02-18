@@ -1,0 +1,70 @@
+site_name: Manual de Usuário Proteo
+site_author: Proteo Software
+site_description: Manual oficial do sistema Proteo
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  palette:
+    scheme: default
+    primary: white
+    accent: white
+
+
+nav:
+  - Inicio: index.md
+
+  - Dashboard: dashboard.md
+
+  - Notificações: notificacoes.md
+
+
+  - Pessoas:
+      - Sobre: pessoas/sobre_pessoas.md
+      - Pessoas: pessoas/pessoas.md
+      - Perfis: pessoas/perfis.md
+      - Layouts: pessoas/layouts.md
+      - Tags: pessoas/tags.md
+
+  - PLD/FT:
+      - Sobre: pldft/sobre_pldft.md
+      - Central de Risco: pldft/central_risco.md
+      - Monitoramento: pldft/monitoramento.md
+      - Comitês: pldft/comites.md
+
+  - Background Check:
+      - Sobre: background_check/sobre_bc.md
+      - Pesquisa: background_check/pesquisa.md
+
+  - Financeiro:
+      - Sobre: financeiro/sobre_financeiro.md
+      - Relatório de Consumo: financeiro/relatorio.md
+      - Configuração de Consumo: financeiro/configuracao.md
+
+  - Ferramentas:
+      - Sobre: ferramentas/sobre_ferramentas.md
+      - Assistentes: ferramentas/assistentes.md
+
+  - Configurações:
+      - Sobre: configuracoes/sobre_config.md
+      - Integrações: configuracoes/integracoes.md
+      - Grupos de Acesso: configuracoes/grupos.md
+      - Usuários: configuracoes/usuarios.md
+      - Política Acessos IP: configuracoes/politica_acessos.md
+
+  - Auditoria:
+      - Sobre: auditoria/sobre_auditoria.md
+      - Logs de Alterações: auditoria/logs_alteracoes.md
+      - Logs de Acesso: auditoria/logs_acesso.md
+      - Logs de Webhook: auditoria/logs_webhook.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - md_in_html
