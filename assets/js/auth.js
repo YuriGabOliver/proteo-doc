@@ -8,7 +8,7 @@
 
  
   if (!autenticado && !paginaAtual.includes("login.html")) {
-    window.location.href = "/login.html";
+    window.location.href = "login.html";
   }
 
  
@@ -17,7 +17,7 @@
 
     if (senha === senhaCorreta) {
       sessionStorage.setItem("proteo_auth", "true");
-      window.location.href = "/index.html";
+      window.location.href = "index.html";
     } else {
       alert("Senha incorreta!");
     }
