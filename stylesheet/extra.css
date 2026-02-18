@@ -1,0 +1,78 @@
+/* ===== HEADER (barra superior) ===== */
+.md-header {
+    background-color: #F5F6F8 !important;
+    color: #1F2937;
+    box-shadow: none;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+/* título do site */
+.md-header__title {
+    color: #1F2937;
+    font-weight: 600;
+}
+
+/* ===== LOGO / MENU ICON ===== */
+.md-header__button.md-logo img {
+    height: 48px;
+}
+
+/* ícones do header (search/menu) */
+.md-header__button {
+    color: #1F2937;
+}
+
+/* ===== MENU LATERAL ===== */
+.md-nav__link--active {
+    color: #1E66F5 !important;
+    font-weight: 600;
+}
+
+.md-nav__link:hover {
+    color: #1E66F5;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #1E66F5;
+}
+
+a:hover {
+    color: #1A5AE0;
+}
+
+/* ===== BOTÕES (caso use) ===== */
+.md-button--primary {
+    background-color: #1E66F5;
+    border-color: #1E66F5;
+}
+
+.md-button--primary:hover {
+    background-color: #1A5AE0;
+}
+
+/* ===== BARRA DE PESQUISA ===== */
+.md-search__form {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+/* ===== FUNDO GERAL ===== */
+.md-main {
+    background-color: #FFFFFF;
+}
+
+.md-header__title {
+    color: #000000 !important;
+}
+
+/* botões e ícones do header (menu, busca, etc) */
+.md-header__button {
+    color: #000000 !important;
+}
+
+/* texto dentro do campo de busca */
+.md-search__input {
+    color: #000000 !important;
+}
+
